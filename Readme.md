@@ -23,17 +23,7 @@ Given the physicochemical properties of wine such as acidity, pH, alcohol, and s
 
 ## Project Architecture
 
-Dataset
-↓
-Data Preprocessing
-↓
-Model Training (RandomForest)
-↓
-Model Saved (.pkl)
-↓
-FastAPI API
-↓
-Prediction
+![alt text](image-1.png)
 
 ---
 
@@ -48,29 +38,7 @@ Pandas
 ---
 
 ## Project Structure
-wine-quality-prediction
-│
-├── api
-│ └── app.py
-│
-├── data
-│ └── raw
-│ └── winequality-red.csv
-│
-├── models
-│ └── wine_model.pkl
-│
-├── notebooks
-│ └── eda.ipynb
-│
-├── src
-│ ├── data_loader.py
-│ ├── preprocess.py
-│ ├── train.py
-│ └── predict.py
-│
-├── requirements.txt
-└── Readme.md
+![alt text](image.png)
 
 ---
 
