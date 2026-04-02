@@ -74,6 +74,9 @@ http://127.0.0.1:8000/docs
 }
 
 ---
+## Model Performance
+Model: RandomForestClassifier
+Accuracy: 0.93
 
 ## Future Improvements
 
