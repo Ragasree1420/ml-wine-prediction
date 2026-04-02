@@ -57,6 +57,12 @@ uvicorn api.app:app --reload
 http://127.0.0.1:8000/docs
 
 ---
+## Run with Docker
+
+docker compose up
+
+- Open:
+http://localhost:8000/docs
 
 ## Example Prediction Input
 {
@@ -75,8 +81,8 @@ http://127.0.0.1:8000/docs
 
 ---
 ## Model Performance
-Model: RandomForestClassifier
-Accuracy: 0.93
+- Model: RandomForestClassifier
+- Accuracy: 0.93
 
 ## Future Improvements
 
